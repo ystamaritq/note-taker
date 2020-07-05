@@ -1,5 +1,9 @@
 # Note Taker
 
+![GitHub language count](https://img.shields.io/github/languages/count/ystamaritq/note-taker)
+![GitHub top language](https://img.shields.io/github/languages/top/ystamaritq/note-taker)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ystamaritq/note-taker)
+
 ## Table of Contents
 
 - [Description](#description)
@@ -7,7 +11,6 @@
 - [Installing / Getting Started](#inslalling-/-getting-started)
 - [Developing](#developing)
 - [MVP](#mvp)
-- [Usage](#usage)
 - [Demo](#demo)
 - [Project Board](https://github.com/ystamaritq/note-taker)
 - [Hosted App Link](https://note-taker-yad.herokuapp.com/)
@@ -20,11 +23,14 @@ An application that can be used to write, save, and delete notes. This applicati
 
 ## User Stories
 
-`AS A user, I want to be able to write and save notes
+```
+AS A user, I want to be able to write and save notes
 
 I WANT to be able to delete notes I've written before
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete`
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
+
+```
 
 ---
 
@@ -60,38 +66,9 @@ Below is a summary of the key files for this project and their purpose:
 
 ## MVP
 
-#### Creating the Classes: `Employee`, `Manager`, `Engineer` ,`Intern`.
-
-<details>
-<summary>Visual Studio Code</summary>
-<img src="./Assets/imgs/code1.png">
-<img src="./Assets/imgs/code2.png">
-<img src="./Assets/imgs/code3.png">
-<img src="./Assets/imgs/code4.png">
-<img src="./Assets/imgs/code5.png">
-<img src="./Assets/imgs/code6.png">
-</details>
-
-#### Generate a `team.html` page in the `output` directory, that displays a nicely formatted team roster. Each team member should display the following in no particular order:
-
-- Name
-- Role
-- ID
-- Role-specific property (school, link to gitHub profile, or office number)
-
-<details>
-<summary>Visual Studio Code</summary>
-<img src="./Assets/imgs/code5.png">
-<img src="./Assets/imgs/code6.png">
-</details>
-
----
-
-## Testing
-
-#### The following image demonstrates all unit tests pass.
-
-![Image](./Assets/imgs/test.png)
+- Allow users to create and save notes.
+- Allow users to view previously saved notes.
+- Allow users to delete previously saved notes by id.
 
 ---
 
@@ -99,19 +76,7 @@ Below is a summary of the key files for this project and their purpose:
 
 #### The following video demonstrates the application functionality:
 
-[Team Profile Generator Video _Click Me_](https://github.com/ystamaritq/team-profile-generator)
-
-#### The following images demonstrates the application functionality:
-
-<details>
-<summary>Images</summary>
-<img src="./Assets/imgs/1.png">
-<img src="./Assets/imgs/2.png">
-</details>
-
-##### Result webpage:
-
-![Image](./Assets/imgs/html.png)
+[Note Taker Video \_Click Me_To_Download](https://note-taker-yad.herokuapp.com/assets/video/note-taker-demo)
 
 ---
 
