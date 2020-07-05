@@ -15,4 +15,34 @@ router.get("/", function (req, res) {
 	});
 });
 
+/* 
+- should receive a new note to save on the request body. 
+- add it to the `db.json` file. 
+- and then return the new note to the client. 
+*/
+
+router.post("/", (req, res) => {
+	let title = req.body.title;
+	let text = req.body.text;
+
+	let note = {
+		title,
+		text,
+	};
+
+	//read the db.json
+	fs.readFile(dataPath, (err, data) => {
+		if (err) throw err;
+		let notes = JSON.parse(data);
+		notes.push(note);
+
+		//write the db.json
+		fs.writeFile(dataPath, JSON.stringify(notes), function (err) {
+			if (err) throw err;
+		});
+
+		res.json(note);
+	});
+});
+
 module.exports = router;
