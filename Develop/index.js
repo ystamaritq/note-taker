@@ -20,10 +20,10 @@ app.get("/", (req, res) => {
 	res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
-//reservation api route "/api/tables"
+// creating the notes.html route
 app.use("/notes", require("./routes/html/notes"));
 
-// If no matching route is found default to home
+// if no matching route is found default to index.html
 app.get("*", function (req, res) {
 	res.sendFile(path.join(__dirname, "./public/index.html"));
 });
