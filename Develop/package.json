@@ -1,14 +1,28 @@
 {
 	"name": "note-taker",
 	"version": "1.0.0",
-	"description": "",
-	"main": "server.js",
+	"description": "## Description",
+	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node index",
+		"dev": "nodemon index"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ystamaritq/note-taker.git"
+	},
+	"keywords": [],
 	"author": "",
 	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ystamaritq/note-taker/issues"
+	},
+	"homepage": "https://github.com/ystamaritq/note-taker#readme",
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	},
 	"dependencies": {
-		"express": "^4.16.4"
+		"express": "^4.17.1",
+		"path": "^0.12.7"
 	}
 }
