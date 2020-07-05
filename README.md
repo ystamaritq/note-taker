@@ -76,7 +76,7 @@ Below is a summary of the key files for this project and their purpose:
 
 #### The following video demonstrates the application functionality:
 
-[Note Taker Video \_Click Me_To_Download](https://note-taker-yad.herokuapp.com/assets/video/note-taker-demo)
+[Note Taker Video \_Click Me_To_Download](https://note-taker-yad.herokuapp.com/assets/video/note-taker-demo.mov)
 
 ---
 
