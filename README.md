@@ -3,6 +3,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/ystamaritq/note-taker)
 ![GitHub top language](https://img.shields.io/github/languages/top/ystamaritq/note-taker)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/ystamaritq/note-taker)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/ystamaritq/note-taker/express)
 
 ## Table of Contents
 
@@ -76,7 +77,7 @@ Below is a summary of the key files for this project and their purpose:
 
 #### The following video demonstrates the application functionality:
 
-[Note Taker Video \_Click Me_To_Download](https://note-taker-yad.herokuapp.com/assets/video/note-taker-demo.mov)
+[Note Taker Video](https://note-taker-yad.herokuapp.com/demo)
 
 ---
 

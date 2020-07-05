@@ -20,6 +20,11 @@ app.get("/", (req, res) => {
 	res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
+// get the demo.html
+app.get("/demo", function (req, res) {
+	res.sendFile(path.join(__dirname, "./public/demo.html"));
+});
+
 // creating the notes.html route
 app.use("/notes", require("./routes/html/notes"));
 
