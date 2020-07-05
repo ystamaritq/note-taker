@@ -8,7 +8,7 @@
 
 - [Description](#description)
 - [User Stories](#user-stories)
-- [Installing / Getting Started](#inslalling-/-getting-started)
+- [Installation](#installation)
 - [Developing](#developing)
 - [MVP](#mvp)
 - [Demo](#demo)
@@ -34,7 +34,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ---
 
-## Installing / Getting Started
+## Installation
 
 To test this project, simply follow these steps:
 
