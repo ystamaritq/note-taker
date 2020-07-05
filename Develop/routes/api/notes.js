@@ -24,10 +24,12 @@ router.get("/", function (req, res) {
 - and then return the new note to the client. 
 */
 router.post("/", (req, res) => {
+	let id = uuid.v4();
 	let title = req.body.title;
 	let text = req.body.text;
 
 	let note = {
+		id,
 		title,
 		text,
 	};
@@ -53,7 +55,28 @@ router.post("/", (req, res) => {
 - remove the note with the given id property.
 - and then rewrite the notes to the db.json file.
 */
+router.delete("/:id", (req, res) => {
+	// read the db.json
+	fs.readFile(dataPath, (err, data) => {
+		if (err) throw err;
+		let notes = JSON.parse(data);
 
-route;
+		// see if the note with that id exists on the json file
+		const noteExists = notes.some((note) => note.id === req.params.id);
+
+		// filter the notes that match with that id
+		if (noteExists) {
+			notes = notes.filter((note) => note.id !== req.params.id);
+			// write the db.json
+			fs.writeFile(dataPath, JSON.stringify(notes), function (err) {
+				if (err) throw err;
+				// response the new json
+				res.json(notes);
+			});
+		} else {
+			res.status(400).json({ msg: `Not note with the id of ${req.params.id}` });
+		}
+	});
+});
 
 module.exports = router;
