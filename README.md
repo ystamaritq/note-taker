@@ -81,7 +81,23 @@ Heroku Page Url : https://note-taker-yad.herokuapp.com/demo
 
 [Note Taker Video](https://note-taker-yad.herokuapp.com/demo)
 
+#### The following images demonstrates the application functionality:
+
+<details>
+<summary>Note Taker Images (Demo)</summary>
+<img src="./public/assets/imgs/1.png">
+<img src="./public/assets/imgs/2.png">
+</details>
+
 ---
+
+## Project Board
+
+> https://github.com/ystamaritq/note-taker
+
+## Hosted App Link
+
+> https://note-taker-yad.herokuapp.com/
 
 ## Licensing
 
