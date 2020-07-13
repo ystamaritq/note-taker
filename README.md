@@ -77,6 +77,8 @@ Below is a summary of the key files for this project and their purpose:
 
 #### The following video demonstrates the application functionality:
 
+Heroku Page Url : https://note-taker-yad.herokuapp.com/demo
+
 [Note Taker Video](https://note-taker-yad.herokuapp.com/demo)
 
 ---
